@@ -4,7 +4,7 @@
 .products {
   margin: 0;
   padding: 0.5em;
-  a{
+  a {
     padding: 0.354em 0.5em;
     border-radius: 0.354em;
   }
@@ -21,11 +21,12 @@
   }
 
   td.image {
-    // hide this on mobile devices
+    // Hide this on mobile devices
     display: none;
-    // Assumeanything bigger than 30em
-    //is a non-mobile device and can
-    // fit the image
+
+    // Assume anything bigger than 30em
+    // is a non-mobile device and can 
+    // fit the image.
     @media (min-width: 30em) {
       display: block;
       img {
@@ -33,11 +34,13 @@
       }
     }
   }
+
   td.description {
     h1 {
       font-size: 1.4em;
     }
   }
+
   td.actions {
     ul {
       padding: 0;
@@ -54,6 +57,3 @@
     }
   }
 }
-
-
-

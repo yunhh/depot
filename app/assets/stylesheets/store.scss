@@ -1,6 +1,7 @@
 // Place all the styles related to the Store controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
 .store {
   max-width: 80em;
   ul.catalog {
@@ -12,11 +13,12 @@
       padding: 1em;
       margin: 0;
       border-bottom: solid thin #ddd;
-      //this make sure our <li> has enough height
+
+      // This makes sure our <li> has enough height
       // to hold the entire image, since it's floated
       &::after {
         clear: both;
-        content: "";
+        content: " ";
         display: block;
       }
       img {
@@ -26,6 +28,7 @@
         margin-bottom: 1em;
         box-shadow: 0.176em 0.176em 0.354em 0px rgba(0,0,0,0.75);
       }
+//
       .price {
         font-size: 1.414em;
       }
@@ -40,9 +43,10 @@
         font-size: 1em;
         padding: 0.354em 1em;
       }
-      input[type="submit"]:hover{
+      input[type="submit"]:hover {
         background-color: #141;
       }
     }
+//
   }
 }
